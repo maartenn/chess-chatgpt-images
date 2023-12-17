@@ -40,3 +40,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+### project ###
+/src/main/resources/CHATGPT_APIKEY

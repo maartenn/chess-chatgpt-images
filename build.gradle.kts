@@ -7,9 +7,11 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    maven(url =  "https://jitpack.io")
 }
 
 dependencies {
+    implementation("com.github.bhlangonijr:chesslib:1.3.3")
     implementation("com.microsoft.playwright:playwright:1.40.0")
     implementation(platform("com.google.inject:guice-bom:7.0.0"))
     implementation("org.testng:testng:7.8.0")
